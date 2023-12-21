@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Botpress Web Chat</title>
+</head>
+<body>
+
+<!-- Place this code wherever you want the chat widget to appear -->
+<div id="webchat"></div>
+
+<!-- Include the Botpress Web Chat script -->
+<script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
+
+<script>
+  window.botpressWebChat.init({
+    "composerPlaceholder": "Chat with bot",
+    "botConversationDescription": "This chatbot was built surprisingly fast with Botpress",
+    "botId": "1de84d03-8175-477f-aeda-1a1c1a122535",
+    "hostUrl": "https://cdn.botpress.cloud/webchat/v1",
+    "messagingUrl": "https://messaging.botpress.cloud",
+    "clientId": "1de84d03-8175-477f-aeda-1a1c1a122535",
+    "webhookId": "136a2f9f-58ff-4701-816e-2a401ef6d5b4",
+    "lazySocket": true,
+    "themeName": "prism",
+    "frontendVersion": "v1",
+    "useSessionStorage": true,
+    "theme": "prism",
+    "themeColor": "#2563eb"
+  });
+</script>
+
+</body>
+</html>
